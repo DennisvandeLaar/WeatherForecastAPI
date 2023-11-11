@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(
         builder =>
         {
-            builder.WithOrigins("http://localhost:3000")
+            builder.WithOrigins("https://agreeable-flower-063f7d910.4.azurestaticapps.net/")
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });
